@@ -1,0 +1,93 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.nav-drawer {
+  min-width: min-content;
+  min-height: 0;
+  flex-shrink: 0;
+}
+.view-container {
+  overflow: auto;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  flex-grow: 1;
+}
+.icon {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
+.avatar {
+  --igx-avatar-background: transparent;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.row-layout {
+  display: flex;
+}
+.header {
+  background-color: #361439;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 12px 20px;
+  height: 70px;
+  min-height: 70px;
+  max-height: 70px;
+  flex-shrink: 0;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.button {
+  --igx-button-foreground: hsla(var(--ig-gray-900));
+  margin: 0 8px 0 0;
+}
+.button_1 {
+  --igx-button-foreground: hsla(var(--ig-gray-900));
+}
+.dropdown {
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: max-content;
+  min-width: min-content;
+}
